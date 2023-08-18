@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { io } from "socket.io-client";
-const socket = io("https://3.110.120.134:3000/");
+const socket = io("https://test.hipal.life");
 import axios from "axios";
 
 export default function MyComponent() {
